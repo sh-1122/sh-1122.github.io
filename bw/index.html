@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .menu{
+        float: left;
+        width: 20%;
+        text-align: center;
+      }
+      .menu a{
+        background-color: #e5e5e5;
+        padding: 8px;
+        margin-top: 7px;
+        display: block;
+        width: 100%;
+        color: black;
+      }
+      .main{
+        float: left;
+        width: 60%;
+        padding: 0 20px;
+      }
+      .right{
+        /*background-color: #e5e5e5;*/
+        float: left;
+        width: 20%;
+        padding: 15px;
+        margin-top: 7px;
+        text-align: center;
+      }
+      .right img{
+        width: 100%;
+        display: block;
+      }
+      @@media only screen and (max-width:620px) {
+        .menu, .main, .right{
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body style="font-family:verdana; color:#aaaaaa;">
+    <div style="background-color:#e5e5e5; padding:15px; text-align:center;">
+      <h1>Hello world</h1>
+    </div>
+    <div style="overflow:auto">
+      <div class="menu">
+        <a href="jejudo.html">Link 1</a>
+        <a href="phuket.html">Link 2</a>
+        <a href="mountain.html">Link 3</a>
+        <a href="geojedo.html">Link 4</a>
+      </div>
+      <div class="main">
+        <h2>제주도</h2>
+        <p name="pp">제주도는 바다 속에서 화산분출활동이 일어나 형성된 화산섬이다. 지금까지 알려진 바로는 약 120만 년 전부터
+                    2만 5000년 전까지 4단계의 화산분출활동을 거쳐 현재와 같은 형태가 만들어진 것으로 되어 있다.
+                    우선 제1단계 화산활동은 약 120만 년 전부터 70만 년 전 사이에 일어났는데, 이때 분출된 현무암은 현재 해수면
+                    위에서는 많이 발견되지 않는다. 산방산·각수바위·월라봉 등이 이 시기에 분출된 지형들이다.</p>
+      </div>
+      <div class="right">
+        <img src="jejudo.jpg">
+      </div>
+    </div>
+    <div style="background-color:#e5e5e5; text-align:center; padding:10px; margin-top:7px">◈ copyright</div>
+  </body>
+</html>
